@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Time Tracking</h1>
+    <p class="lead">We Keep track you your time with one click. you can edit your time as required. Register and login. We are more excited Working with you</p>
+    <p><a class="btn btn-primary btn-lg"@Html.ActionLink("SignUp Now", "Register", "Home")</a></p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            Have you ever tried tracking your time on a job or project. Making worksheets of the time you've worked is really stressful and time taking, Here is a demo for Time Tracking your Moves. 
+        </p>
+        <p><a class="btn btn-default" @Html.ActionLink("Login", "Login", "Home")</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Haven't Registred yet?</h2>
+        <p></p>
+        <p><a class="btn btn-default"@Html.ActionLink("RegisterNow", "Register", "Home")</a></p>
+    </div>
+</div>
